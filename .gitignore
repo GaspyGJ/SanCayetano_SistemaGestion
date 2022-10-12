@@ -1,0 +1,8 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# Compilacion
+/build-QT_Sistema_San_Cayetano-Desktop_Qt_6_3_0_MSVC2019_64bit-Debug
+
+
+#Archivos de prueba
+/Extras/SQL/SanCayetanoPrueba.db

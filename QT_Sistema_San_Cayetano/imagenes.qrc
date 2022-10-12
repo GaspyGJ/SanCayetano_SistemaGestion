@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>../SanCayetanoIMG/icono.ico</file>
+        <file>../SanCayetanoIMG/SC1.jpeg</file>
+        <file>../SanCayetanoIMG/SC2.jpeg</file>
+        <file>../SanCayetanoIMG/SC3.jpeg</file>
+        <file>../SanCayetanoIMG/WhatsApp Image 2022-06-18 at 12.21.56 PM (1).jpeg</file>
+        <file>../SanCayetanoIMG/WhatsApp Image 2022-06-18 at 12.21.56 PM (2).jpeg</file>
+        <file>../SanCayetanoIMG/WhatsApp Image 2022-06-18 at 12.21.56 PM (3).jpeg</file>
+        <file>../SanCayetanoIMG/WhatsApp Image 2022-06-18 at 12.21.56 PM.jpeg</file>
+    </qresource>
+</RCC>

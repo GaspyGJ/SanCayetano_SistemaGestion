@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<head>
+<title>Document</title>
+<style>
+img {
+width: 100px;
+height: 100px;
+}
+#img-h2-img{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+p{
+text-align: center;
+}
+th,
+td {
+border: 1px solid;
+}
+table {
+width: 100%;
+border-collapse: collapse;
+}
+table tr {
+height: 35px;
+border: 1px solid;
+}
+table td {
+border: 1px solid;
+text-align: center;
+}
+table #NroColumna {
+width: 2%;
+}
+table #HoraRegistro {
+width: 5%;
+}
+table #Cliente {
+width: 15%;
+}
+table #Producto {
+width: 15%;
+}
+table #Cantidad {
+width: 10%;
+}
+table #PrecioUnidad {
+width: 10%;
+}
+table #PrecioTotal {
+width: 10%;
+}
+tr td p{
+margin: 0;
+font-weight: bold;
+}
+</style>
+</head>
+<body>
+<div id="img-h2-img">
+<img src="iconoSinFondo.png">
+<div>
+<h1>SAN CAYETANO</h1>
+<p>Tabla Ventas ("+uiVentanaPrincipal->label_fechaDeHoy->text()+" | "+ hora +")</p>
+</div>
+<img src="iconoSinFondo-Invertido.png">
+</div>
+<table>
+<thead>
+<tr>
+<th id="NroColumna" >#</th>
+<th id="HoraRegistro">Hora Registro</th>
+<th id="Cliente">Cliente</th>
+<th id="Producto">Producto</th>
+<th id="Cantidad">Cantidad</th>
+<th id="PrecioUnidad">P. Unidad</th>
+<th id="PrecioTotal">P. Total</th>
+</tr>
+</thead >
+<tbody>
+"+htmlFilas+"
+<tr>
+<th>T</th>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td> <p>Total = "+uiVentanaPrincipal->label_Total->text()+" $</p></td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
